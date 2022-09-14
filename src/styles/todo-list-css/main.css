@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background: #181820;
+    --background-light: #212128;
+
+    --primary-color: #FFFFFF;
+    --secondary-color: #F95738;
+    --thirdy-color: #BBBBBB;
+}
+
+body, input, button {
+    color: var(--primary-color);
+    font: 400 16px 'Fredoka', sans-serif;
+}
+
+body {
+    background-color: var(--background);
+}
+
+button:hover {
+    cursor: pointer;
+}
